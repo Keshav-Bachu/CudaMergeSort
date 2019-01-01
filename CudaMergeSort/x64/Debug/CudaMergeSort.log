@@ -1,0 +1,17 @@
+﻿  
+  D:\User_Space\Programs\Cuda\CudaMergeSort\CudaMergeSort>"D:\User_Space\Programming\_CUDA\Del\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -ID:\User_Space\Programming\_CUDA\Del\include -ID:\User_Space\Programming\_CUDA\Del\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\User_Space\Programs\Cuda\CudaMergeSort\CudaMergeSort\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file kernel.cu...
+  
+  D:\User_Space\Programs\Cuda\CudaMergeSort\CudaMergeSort>"D:\User_Space\Programming\_CUDA\Del\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -ID:\User_Space\Programming\_CUDA\Del\include -ID:\User_Space\Programming\_CUDA\Del\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\User_Space\Programs\Cuda\CudaMergeSort\CudaMergeSort\kernel.cu" 
+D:/User_Space/Programs/Cuda/CudaMergeSort/CudaMergeSort/kernel.cu(14): warning : variable "block" was declared but never referenced
+D:/User_Space/Programs/Cuda/CudaMergeSort/CudaMergeSort/kernel.cu(84): warning : variable "numThreads" was declared but never referenced
+D:/User_Space/Programs/Cuda/CudaMergeSort/CudaMergeSort/kernel.cu(14): warning : variable "block" was declared but never referenced
+D:/User_Space/Programs/Cuda/CudaMergeSort/CudaMergeSort/kernel.cu(84): warning : variable "numThreads" was declared but never referenced
+  kernel.cu
+  CudaMergeSort.vcxproj -> D:\User_Space\Programs\Cuda\CudaMergeSort\x64\Debug\CudaMergeSort.exe
+  CudaMergeSort.vcxproj -> D:\User_Space\Programs\Cuda\CudaMergeSort\x64\Debug\CudaMergeSort.pdb (Full PDB)
+  copy "D:\User_Space\Programming\_CUDA\Del\bin\cudart*.dll" "D:\User_Space\Programs\Cuda\CudaMergeSort\x64\Debug\"
+  D:\User_Space\Programming\_CUDA\Del\bin\cudart32_90.dll
+  D:\User_Space\Programming\_CUDA\Del\bin\cudart64_90.dll
+          2 file(s) copied.
